@@ -74,6 +74,9 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+  
+ // --ion-background-color:#aaa;
+  
 }
 
 ion-button{
@@ -81,3 +84,20 @@ ion-button{
     --background-activated: #e9c067e8;
     color: white;
   }
+ion-content {
+    //   --ion-background-color: yellow;
+    --background : #7bcbd5;
+}
+ ion-grid {
+   background: #c6f9ff;
+    border: 1px solid #baf8ff;
+    margin: 10px;
+}
+ion-card{
+     // --ion-item-background:#aaa !important;
+      ion-item{
+          --background: #baf8ff !important;
+      }
+      --background: #c6f9ff !important;
+      //background-color: #aaa;
+}
